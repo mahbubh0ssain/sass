@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ffab73;
+}
+
+/*
+nav {
+  margin-top: 14px;
+}
+nav ul {
+  list-style-type: disc;
+}
+nav ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-right: 4px;
+  padding: 3px;
+}
+nav ul li a:hover {
+  background: $footer-bg;
+  transition: 0.4s;
+  color: white;
+}
+*/
+nav {
+  margin-top: 14px;
+}
+nav ul {
+  list-style-type: disc;
+}
+nav ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-right: 4px;
+  padding: 3px;
+}
+nav ul li a:hover {
+  background: steelblue;
+  transition: 0.4s;
+  color: white;
+}
+
+main {
+  background: cyan;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+footer {
+  background: steelblue;
+}/*# sourceMappingURL=demo.css.map */

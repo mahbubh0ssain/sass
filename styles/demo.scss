@@ -1,0 +1,72 @@
+// reset code
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// color variables
+$header-bg: #ffab73;
+$main-bg: cyan;
+$footer-bg: steelblue;
+$para-fontsize: 20px;
+
+header {
+  background: $header-bg;
+}
+
+// navbar styling general css
+/*
+nav {
+  margin-top: 14px;
+}
+nav ul {
+  list-style-type: disc;
+}
+nav ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-right: 4px;
+  padding: 3px;
+}
+nav ul li a:hover {
+  background: $footer-bg;
+  transition: 0.4s;
+  color: white;
+}
+*/
+// navbar styling nesting SASS
+nav {
+  margin-top: 14px;
+  ul {
+    list-style-type: disc;
+    li {
+      display: inline-block;
+      margin-bottom: 10px;
+      a {
+        text-decoration: none;
+        margin-right: 4px;
+        padding: 3px;
+      }
+      a:hover {
+        background: $footer-bg;
+        transition: 0.4s;
+        color: white;
+      }
+    }
+  }
+}
+
+main {
+  background: $main-bg;
+}
+
+#about p {
+  font-size: $para-fontsize;
+}
+footer {
+  background: $footer-bg;
+}
